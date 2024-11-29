@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- <base href="/"> -->
+  <base href="./">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="leaderslaw">
+  <link rel="apple-touch-icon" href="./icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>leaderslaw</title>
+  <link rel="manifest" href="./manifest.json">
+  <style>
+    .container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      /* Ensure children are arranged vertically */
+    }
+
+    .indicator {
+      width: 50vw;
+    }
+  </style>
+
+</head>
+
+<body style="overflow: hidden;">
+  <div id="loading_indicator" class="container">
+    <img class="indicator" src="./assets/book_loading.gif" style="display: block; margin: 0 auto;" />
+    <p style="margin-top: 14px;">Analyzing the Law 11 to 16. <br>Please wait...</p>
+  </div>
+  <script src="./flutter_bootstrap.js" async></script>
+  <script>
+    window.onload = function () {
+      setTimeout(function () {
+        var loadingIndicator = document.getElementById("loading_indicator");
+        if (loadingIndicator) {
+          loadingIndicator.remove();
+        }
+      }, 10000);
+    }
+  </script>
+</body>
+
+</html>
