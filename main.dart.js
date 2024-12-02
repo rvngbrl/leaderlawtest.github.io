@@ -61874,7 +61874,7 @@ O(a){var s,r=null
 this.d.B3()
 s=new A.a05()
 s.Qe(B.wn,r)
-return A.ail(r,B.j1,new A.qz(A.AY(A.b([B.uw,A.pb("Irreputable laws of leadership",A.aeU().$3$color$fontSize$fontWeight(B.i,23,B.bk),r),B.uw,new A.ui(new A.a8L(this,a),r)],t.F),B.ax,B.b1),this,s,r))},
+return A.ail(r,B.j1,new A.qz(A.AY(A.b([B.uw,A.pb("Irrefutable Laws Of Leadership",A.aeU().$3$color$fontSize$fontWeight(B.i,23,B.bk),r),B.uw,new A.ui(new A.a8L(this,a),r)],t.F),B.ax,B.b1),this,s,r))},
 qt(a,b,c){return new A.vH(new A.a8J(this,a,c,b),null)}}
 A.a8L.prototype={
 $0(){var s,r,q,p=null,o=this.a,n=o.d,m=n.ax,l=n.ay.gm(0),k=J.bc(m.gm(0),l)
